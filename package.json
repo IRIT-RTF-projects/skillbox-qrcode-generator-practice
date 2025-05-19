@@ -8,16 +8,15 @@
   "main": "/dist/main.js",
   "scripts": {
     "test": "vitest",
+    "start": "tsc && node dist/main.js",
     "build": "npx tsc"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
-    "typescript": "^5.8.2",
-    "vitest": "^3.0.8",
-    "vitest-mock-extended": "^3.0.1"
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.8.2"
   },
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "dotenv-cli": "^8.0.0"
+    "qrcode": "^1.5.4"
   }
 }
